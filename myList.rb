@@ -1,13 +1,21 @@
-class MyList
-	def initialize (*list)
-		@list = list.to_a
-	end
+require_relative 'MyEnumerable'
 
-	def each
-		yield @list
-	end
+class MyList
+  include MyEnumerable
+
+  def initialize(*list)
+    @list = list.to_a
+  end
+
+  def each
+    i = 0
+    while i < @list.length
+      yield @list[i]
+      i += 1
+    end
+  end
 end
 
-list = MyList.new(1,2,3,4)
+list = MyList.new(1, 2, 3, 4)
 
-list.print_list
+list.all? { |e| e < 5 }
