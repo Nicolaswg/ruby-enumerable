@@ -1,56 +1,46 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Enumerable
 
-> Description the project.
+> In this project we made a moduled project that returns the calculated values with the List class, allowing the user to see if any item is there, if all the items pass the requirements and filter them
+
+![](app_screenshot.png)
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby
+- Git, Github, Rubocop
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
-
-### Install
+run "git clone https://github.com/Nicolaswg/ruby-enumerable.git"
+run "cd /ruby-enumerable"
 
 ### Usage
-
-### Run tests
-
-### Deployment
-
-
+run list.all? condition to check if all the values meets the condition
+run list.any? condition to check if any value meets the condition
+run list.filter condition to filter the values that meets the conditions
 
 ## Authors
 
-👤 **Author1**
+Platform | Badge |
+ --- | --- |
+ **GitHub**  | [@Nicolaswg](https://github.com/Nicolaswg)
+ **LinkdIn** | [LinkedIn](https://www.linkedin.com/in/nicolas-gonzalez-8623461a0/)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Lisandro Seia**
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+Platform | Badge |
+ --- | --- |
+ **GitHub**  | [@lisandroseia](https://github.com/lisandroseia)
+ **LinkdIn** | [LinkedIn](https://www.linkedin.com/in/lisandro-seia-295120225/)
 
 ## 🤝 Contributing
 
@@ -61,12 +51,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
