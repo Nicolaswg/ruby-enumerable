@@ -30,6 +30,8 @@ run list.filter condition to filter the values that meets the conditions
 
 ## Authors
 
+👤 **Nicolas Gonzalez**
+
 Platform | Badge |
  --- | --- |
  **GitHub**  | [@Nicolaswg](https://github.com/Nicolaswg)
