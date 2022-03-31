@@ -14,6 +14,10 @@ module MyEnumerable
   end
 
   def filter?
-    print 'Im filter?'
+    arr = []
+	each do |e|
+		arr.push(e) if yield e
+	end
+	return arr
   end
 end
