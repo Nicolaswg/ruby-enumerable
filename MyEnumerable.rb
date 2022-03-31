@@ -1,13 +1,16 @@
 module MyEnumerable
   def all?
-    each {|e| 
-        return false unless yield e 
-    } 
+    each do |e|
+      return false unless yield e
+    end
     true
   end
 
   def any?
-    print 'Im any?'
+    each do |e|
+      return true if yield e
+    end
+    false
   end
 
   def filter?
